@@ -1,0 +1,44 @@
+.container{
+
+}
+.catTitle{
+color:#efb70e;
+}
+.item{
+display: flex;
+gap: 50px;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 50px;
+/* background-color: wheat; */
+}
+.imgContainer{
+    flex:1;
+    height: 500px;
+    position: relative;
+
+
+}
+.item.item:nth-child(2n+1){
+    flex-direction: row-reverse;
+
+}
+.img{
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+.content{
+    flex:1;
+}
+.title{
+    font-style: 50px;
+    padding-bottom: 15px;
+}
+.desc{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
